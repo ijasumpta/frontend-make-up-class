@@ -1,0 +1,93 @@
+function total(price, quantity) {
+    return price * quantity
+}
+
+const calParamiter = (l, w) => {
+    return 2 * (l + w)
+}
+
+
+
+
+//Traditional function declaration
+function calculateTotal(price, qty){
+    return price * qty;
+}
+//Explicit arrow function
+const calaculatePerimeter = (length, width) => {
+    return 2 * (length  + width)
+}
+
+//Arrow function with implicit return
+const greet = (name) => `Hello ${name}`
+
+const myName = "Paparazi";
+const greet2 = () => `Hello ${myName}`
+
+console.log(greet2("Nnamdi"))
+
+
+//Arrow function and Callbacks
+ const orders = [
+    {id: 1, price: 900},
+    {id: 2, price: 1000},
+    {id: 3, price: 1200}
+ ];
+const prices =orders.map(order => order.price);
+
+console.log(prices)
+
+
+const add = (a, b) => a + b;
+const subract = (a, b) => {return a - b};
+//const subtract2 = (a, b) => a - b;
+//const multiply = (a, b) => a * b;
+
+const addition = add(10, 5);
+
+console.log(addition)
+console.log(subract(10, 5))
+//console.log(subtract2(10, 5))
+
+
+
+
+
+
+const double = (number) => number * 2;
+
+const calculateFee = (price) =>  price * 0.1;
+
+const createUser = name => ({
+    name: name,
+    active: true
+});
+
+console.log(double(10));
+console.log(calculateFee(5000));
+console.log(createUser("Nnamdi"))
+
+//Arrow function as callbacks
+const prices = [1000, 2000, 3000]
+
+const applyDiscount = price => price * 0.9;
+
+const discountedPrices = prices.map(applyDiscount)
+
+const doubledPrices = prices.map(price => { return price * 2})
+
+console.log(discountedPrices)
+console.log(doubledPrices)
+console.log(prices)
+
+
+
+
+
+
+
+
+
+
+
+
