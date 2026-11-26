@@ -90,21 +90,3 @@ console.log(calculateDeliveryFee(3, 2000))
 // 4. Return an object containing the customer name, subtotal, discount amount, and final amount.
 // 5. Use let and const appropriately.
 
-const createOrderSummary = (customer, price, quantity) => {
-    const subTotal = price * quantity;
-    let discount = 0;
-    if (subTotal >= 100000) {
-        discount = subTotal * 0.1;
-    
-    }
-    const finalAmount = subTotal - discount;
-    return({
-        customer: customer,
-        subtotal: subTotal,
-        discount: discount,
-        finalAmount: finalAmount
-
-    })
-}
-
-console.log(createOrderSummary("Chidi", 50000, 2))
