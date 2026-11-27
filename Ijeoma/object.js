@@ -59,3 +59,6 @@ const student2 = {
  bankAccount.checkBalance();
  bankAccount.deposit();
  bankAccount.checkBalance();
+
+
+ 

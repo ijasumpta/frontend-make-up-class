@@ -116,48 +116,50 @@ const createOrderSummary = (customer, price, quantity) =>  {
  console.log(result);
 
  
-//ASSIGNMENT -- Thursday 26th Nov
+// //ASSIGNMENT -- Thursday 26th Nov
 
-// Write an arrow function called calculateBonus that accepts three parameters:
-// - name — employee's name.
-// - salary — employee's monthly salary.
-// - performance — employee's performance rating, with a default value of "average".
+// // Write an arrow function called calculateBonus that accepts three parameters:
+// // - name — employee's name.
+// // - salary — employee's monthly salary.
+// // - performance — employee's performance rating, with a default value of "average".
 
-// Business rules:
-// Performance	    Bonus
-// Excellent	    20% of salary
-// Good	            10% of salary
-// Average	        5% of salary
-// Poor	            0%
+// // Business rules:
+// // Performance	    Bonus
+// // Excellent	    20% of salary
+// // Good	            10% of salary
+// // Average	        5% of salary
+// // Poor	            0%
 
-// The function should return an object containing the employee's name, salary, bonus and total salary. For an invalid performance rating, return "Invalid performance rating".
+// // The function should return an object containing the employee's name, salary, bonus and total salary. For an invalid performance rating, return "Invalid performance rating".
 
-// Test cases:
-console.log(calculateBonus("Emeka", 200000, "excellent"));
-console.log(calculateBonus("Amaka", 150000));
-console.log(calculateBonus("Chidi", 300000, "poor"));
-console.log(calculateBonus("Obinna", 100000, "unknown"));
+// // Test cases:
+// console.log(calculateBonus("Emeka", 200000, "excellent"));
+// console.log(calculateBonus("Amaka", 150000));
+// console.log(calculateBonus("Chidi", 300000, "poor"));
+// console.log(calculateBonus("Obinna", 100000, "unknown"));
 
-//Expected output:
-{
-    name: "Emeka",
-    salary: 200000,
-    bonus: 40000,
-    totalSalary: 240000
-}
+// //Expected output:
+// {
+//     name: "Emeka",
+//     salary: 200000,
+//     bonus: 40000,
+//     totalSalary: 240000
+// }
 
-{
-    name: "Amaka",
-    salary: 150000,
-    bonus: 7500,
-    totalSalary: 157500
-}
+// {
+//     name: "Amaka",
+//     salary: 150000,
+//     bonus: 7500,
+//     totalSalary: 157500
+// }
 
-{
-    name: "Chidi",
-    salary: 300000,
-    bonus: 0,
-    totalSalary: 300000
-}
+// {
+//     name: "Chidi",
+//     salary: 300000,
+//     bonus: 0,
+//     totalSalary: 300000
+// }
 
-"Invalid performance rating"
+// "Invalid performance rating"
+
+
