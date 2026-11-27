@@ -2,17 +2,17 @@
 
 const createOrderSummary = (customer, price, quantity) => {
     const subTotal = price * quantity;
-    // let discount = 0;
+    let discount = 0;
     if (subTotal >= 100000) {
         discount = subTotal * 0.1;
     
     }
     const finalAmount = subTotal - discount;
     return({
-        customer: customer,
-        subtotal: subTotal,
-        discount: discount,
-        finalAmount: finalAmount
+        customer,
+        subTotal,
+        discount,
+        finalAmount
 
     })
 }
